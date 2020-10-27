@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    padding-top: 20px;
+    justify-items: space-between;
+}
+
+.header-left{
+    flex:0.3;
+}
+
+.header-center{
+    flex:0.4;
+
+}
+
+.header-center > .logo{
+     
+    width: 70px;
+    height: 40px;
+    
+}
+
+.header-right{
+    flex:0.3;
+}
